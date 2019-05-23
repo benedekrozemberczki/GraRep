@@ -32,11 +32,10 @@ The code takes the **edge list** of the graph in a csv file. Every row indicates
 
 ### Outputs
 
-The predictions are saved in the `output/` directory. Each embedding has a header and a column with the graph identifiers. Finally, the predictions are sorted by the identifier column.
+The embedding is saved in the `output/` directory. Each embedding has a header and a column with the node identifiers. Finally, the embedding is sorted by the identifier column.
 
 ### Options
 Training a model is handled by the `src/main.py` script which provides the following command line arguments.
-
 
 ```
   --epochs                      INT     Number of epochs.                  Default is 100.
