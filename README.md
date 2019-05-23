@@ -2,7 +2,7 @@ GraRep
 ============================================
 A SciPy implementation of "GraRep: Learning Graph Representations with Global Structural Information" (WWW 2015).
 <p align="center">
-  <img width="800" src="CapsGNN.jpg">
+  <img width="800" src="grarep.png">
 </p>
 <p align="justify">
 
@@ -14,7 +14,7 @@ This repository provides a SciPy implementation of CapsGNN as described in the p
 
 > Capsule Graph Neural Network.
 > Zhang Xinyi, Lihui Chen.
-> ICLR, 2019.
+> WWW, 2015.
 > [[Paper]](https://openreview.net/forum?id=Byl8BnRcYm)
 
 ### Requirements
