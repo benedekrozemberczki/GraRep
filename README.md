@@ -5,17 +5,15 @@ A SciPy implementation of "GraRep: Learning Graph Representations with Global St
   <img width="800" src="grarep.png">
 </p>
 <p align="justify">
-
-In this paper, we present GraRep, a novel model for learning vertex representations of weighted graphs. This model learns low dimensional vectors to represent vertices appearing in a graph and, unlike existing work, integrates global structural information of the graph into the learning process. We also formally analyze the connections between our work and several previous research efforts, including the DeepWalk model of Perozzi et al. as well as the skip-gram model with negative sampling of Mikolov et al. We conduct experiments on a language network, a social network as well as a citation network and show that our learned global representations can be effectively used as features in tasks such as clustering, classification and visualization. Empirical results demonstrate that our representation significantly outperforms other state-of-the-art methods in such tasks.
-</p>
+In this paper, we present GraRep, a novel model for learning vertex representations of weighted graphs. This model learns low dimensional vectors to represent vertices appearing in a graph and, unlike existing work, integrates global structural information of the graph into the learning process. We also formally analyze the connections between our work and several previous research efforts, including the DeepWalk model of Perozzi et al. as well as the skip-gram model with negative sampling of Mikolov et al. We conduct experiments on a language network, a social network as well as a citation network and show that our learned global representations can be effectively used as features in tasks such as clustering, classification and visualization. Empirical results demonstrate that our representation significantly outperforms other state-of-the-art methods in such tasks.</p>
 
 
 This repository provides a SciPy implementation of CapsGNN as described in the paper:
 
-> Capsule Graph Neural Network.
-> Zhang Xinyi, Lihui Chen.
+> GraRep: Learning Graph Representations with Global Structural Information.
+> ShaoSheng Cao, Wei Lu, and Qiongkai Xu.
 > WWW, 2015.
-> [[Paper]](https://openreview.net/forum?id=Byl8BnRcYm)
+> [[Paper]](https://www.researchgate.net/profile/Qiongkai_Xu/publication/301417811_GraRep/links/5847ecdb08ae8e63e633b5f2/GraRep.pdf)
 
 ### Requirements
 The codebase is implemented in Python 3.5.2. package versions used for development are just below.
@@ -27,12 +25,6 @@ pandas            0.23.4
 texttable         1.5.0
 scipy             1.1.0
 argparse          1.1.0
-torch             0.4.1
-torch-scatter     1.1.2
-torch-sparse      0.2.2
-torch-cluster     1.2.4
-torch-geometric   1.0.3
-torchvision       0.2.1
 ```
 ### Datasets
 The code takes graphs for training from an input folder where each graph is stored as a JSON. Graphs used for testing are also stored as JSON files. Every node id and node label has to be indexed from 0. Keys of dictionaries are stored strings in order to make JSON serialization possible.
