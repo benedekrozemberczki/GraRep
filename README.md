@@ -1,6 +1,6 @@
 GraRep
 ============================================
-A PyTorch implementation of "Capsule Graph Neural Network" (ICLR 2019).
+A Scipy implementation of "GraRep: Learning Graph Representations with Global Structural Information" (WWW 2015).
 <p align="center">
   <img width="800" src="CapsGNN.jpg">
 </p>
