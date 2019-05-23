@@ -51,19 +51,19 @@ Training a model is handled by the `src/main.py` script which provides the follo
   --learning-rate               FLOAT   Adam learning rate.                Default is 0.01.
 ```
 ### Examples
-The following commands learn a model and save the predictions. Training a model on the default dataset:
+The following commands learn a model and save the embedding. Training a model on the default dataset:
 ```
 python src/main.py
 ```
 <p align="center">
-  <img width="500" src="capsgnn.gif">
+  <img width="500" src="grarep.gif">
 </p>
 
-Training a CapsGNNN model for a 100 epochs.
+Training a GraRep model with higher dimension size.
 ```
-python src/main.py --epochs 100
+python src/main.py --dimensions 32
 ```
 Changing the batch size.
 ```
-python src/main.py --batch-size 128
+python src/main.py --order 3
 ```
