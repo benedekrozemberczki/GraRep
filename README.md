@@ -1,6 +1,6 @@
 GraRep
 ============================================
-A Scipy implementation of "GraRep: Learning Graph Representations with Global Structural Information" (WWW 2015).
+A SciPy implementation of "GraRep: Learning Graph Representations with Global Structural Information" (WWW 2015).
 <p align="center">
   <img width="800" src="CapsGNN.jpg">
 </p>
@@ -10,14 +10,12 @@ In this paper, we present GraRep, a novel model for learning vertex representati
 </p>
 
 
-This repository provides a Scipy implementation of CapsGNN as described in the paper:
+This repository provides a SciPy implementation of CapsGNN as described in the paper:
 
 > Capsule Graph Neural Network.
 > Zhang Xinyi, Lihui Chen.
 > ICLR, 2019.
 > [[Paper]](https://openreview.net/forum?id=Byl8BnRcYm)
-
-The core Capsule Neural Network implementation adapted is available [[here]](https://github.com/timomernick/pytorch-capsule).
 
 ### Requirements
 The codebase is implemented in Python 3.5.2. package versions used for development are just below.
