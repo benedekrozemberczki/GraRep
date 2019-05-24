@@ -25,6 +25,7 @@ pandas            0.23.4
 texttable         1.5.0
 scipy             1.1.0
 argparse          1.1.0
+scikit-learn      0.20.0
 ```
 ### Datasets
 
@@ -45,10 +46,6 @@ Training a model is handled by the `src/main.py` script which provides the follo
   --inner-attention-dimension   INT     Number of neurons in attention.    Default is 20.  
   --capsule-dimensions          INT     Number of capsule neurons.         Default is 8.
   --number-of-capsules          INT     Number of capsules in layer.       Default is 8.
-  --weight-decay                FLOAT   Weight decay of Adam.              Defatuls is 10^-6.
-  --lambd                       FLOAT   Regularization parameter.          Default is 0.5.
-  --theta                       FLOAT   Reconstruction loss weight.        Default is 0.1.
-  --learning-rate               FLOAT   Adam learning rate.                Default is 0.01.
 ```
 ### Examples
 The following commands learn a model and save the embedding. Training a model on the default dataset:
