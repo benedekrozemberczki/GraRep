@@ -9,21 +9,31 @@ class GraRep(object):
     """
     GraRep Model Object.
     A sparsity aware implementation of GraRep.
-    For details see the paper:
-    A YouTube video from the conference:
+    For details see the paper: https://dl.acm.org/citation.cfm?id=2806512
     """
     def __init__(self, A, args):
+        """
+        :param A: Adjacency matrix.
+        :param args: Arguments object.
+        """
         self.A = A
         self.args = args
         self._setup_base_target_matrix()
 
     def _setup_base_target_matrix(self):
+        """
+        Creating a base matrix to multiply.
+        """
         values = [1.0 for i in range(self.A.shape[0])]
         indices = [i for i in range(self.A.shape[0])]
         self.A_hat = sparse.coo_matrix((values, (indices,indices)),shape=self.A.shape,dtype=np.float32)
 
 
     def _create_target_matrix(self):
+        """
+        Creating a log transformed target matrix.
+        :return target_matrix: Matrix to decompose with SVD.
+        """
         self.A_hat = sparse.coo_matrix(self.A_hat.dot(self.A))
         scores = np.log(self.A_hat.data)-math.log(self.A.shape[0])
         rows = self.A_hat.row[scores<0]
