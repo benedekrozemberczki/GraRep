@@ -39,6 +39,6 @@ def parameter_parser():
     parser.add_argument('--iterations',
                         type = int,
                         default = 20,
-	                help = 'Target matrix approximation order. Default is 5.')
+	                help = '. Default is 20.')
     
     return parser.parse_args()
