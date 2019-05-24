@@ -65,6 +65,6 @@ class GraRep(object):
         columns = ["ID"] + ["x_" + str(col) for col in range(column_count)]
         ids = np.array([i for i in range(self.A.shape[0])]).reshape(-1,1)
         self.embeddings = np.concatenate([ids, self.embeddings],axis=1)
-        self.embeddings = pd.DataFrame(self.embeddings, columns = columns)
-        self.embeddings.to_csv(self.args.output_path,index=None)
+        self.embeddings = pd.DataFrame(self.embeddings, columns=columns)
+        self.embeddings.to_csv(self.args.output_path, index=None)
 
