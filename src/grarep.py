@@ -50,5 +50,5 @@ class GraRep(object):
         ids = np.array([i for i in range(self.A.shape[0])]).reshape(-1,1)
         self.embeddings = np.concatenate([ids, self.embeddings],axis=1)
         self.embeddings = pd.DataFrame(self.embeddings, columns = columns)
-        self.embeddings.to_csv("emb.csv",index=None)
+        self.embeddings.to_csv(self.args.output_path,index=None)
 
