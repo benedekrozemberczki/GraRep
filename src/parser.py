@@ -3,7 +3,7 @@ import argparse
 def parameter_parser():
 
     """
-    A method to parse up command line parameters. By default it gives an embedding of the Wiki Chameleons.
+    A method to parse up command line parameters. By default it gives an embedding of Cora.
     The default hyperparameters give a good quality representation without grid search.
     Representations are sorted by node ID.
     """
