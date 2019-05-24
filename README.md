@@ -39,13 +39,12 @@ The embedding is saved in the `output/` directory. Each embedding has a header a
 Training a model is handled by the `src/main.py` script which provides the following command line arguments.
 
 ```
-  --epochs                      INT     Number of epochs.                  Default is 100.
-  --batch-size                  INT     Number fo graphs per batch.        Default is 32.
-  --gcn-filters                 INT     Number of filters in GCNs.         Default is 20.
-  --gcn-layers                  INT     Number of GCNs chained together.   Default is 2.
-  --inner-attention-dimension   INT     Number of neurons in attention.    Default is 20.  
-  --capsule-dimensions          INT     Number of capsule neurons.         Default is 8.
-  --number-of-capsules          INT     Number of capsules in layer.       Default is 8.
+  --edge-path     STR     Edge list csv.                        Default is `input/edges/cora.csv`.
+  --output-path   STR     Output embedding csv.                 Default is `output/cora_grarep.csv`.
+  --dimensions    INT     Number of dimensions per embedding.   Default is 16.
+  --order         INT     Number of adjacency matrix powers.    Default is 5.  
+  --iterations    INT     SVD iterations.                       Default is 20.
+  --seed          INT     Random seed.                          Default is 42.
 ```
 ### Examples
 The following commands learn a model and save the embedding. Training a model on the default dataset:
