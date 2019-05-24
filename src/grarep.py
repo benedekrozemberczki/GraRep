@@ -28,7 +28,6 @@ class GraRep(object):
         indices = [i for i in range(self.A.shape[0])]
         self.A_hat = sparse.coo_matrix((values, (indices,indices)),shape=self.A.shape,dtype=np.float32)
 
-
     def _create_target_matrix(self):
         """
         Creating a log transformed target matrix.
