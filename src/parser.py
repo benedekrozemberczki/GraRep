@@ -29,12 +29,12 @@ def parameter_parser():
     parser.add_argument('--order',
                         type = int,
                         default = 5,
-	                help = 'Target matrix approximation order. Default is 5.')
+	                help = 'Approximation order. Default is 5.')
 
     parser.add_argument('--seed',
                         type = int,
                         default = 42,
-	                help = 'Target matrix approximation order. Default is 42.')
+	                help = 'Random seed. Default is 42.')
 
     parser.add_argument('--iterations',
                         type = int,
