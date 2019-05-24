@@ -5,8 +5,12 @@ import networkx as nx
 from scipy import sparse
 from texttable import Texttable
 
-
 def create_inverse_degree_matrix(edges):
+    """
+    Creating an inverse degree matrix from an edge list.
+    :param edges: Edge list.
+    :return D_1: Inverse degree matrix.
+    """
     graph = nx.from_edgelist(edges)
     ind = range(len(graph.nodes()))
     degs = [1.0/graph.degree(node) for node in range(graph.number_of_nodes())]
@@ -16,7 +20,7 @@ def create_inverse_degree_matrix(edges):
 def normalize_adjacency(edges):
     """
     Method to calculate a sparse degree normalized adjacency matrix.
-    :param graph: Sparse graph adjacency matrix.
+    :param edges: Edge list of graph.
     :return A: Normalized adjacency matrix.
     """
     D_1 = create_inverse_degree_matrix(edges)
@@ -29,10 +33,9 @@ def normalize_adjacency(edges):
 
 def read_graph(edge_path):
     """
-    Method to read graph and create a target matrix with pooled adjacency matrix powers up to the order.
+    Method to read graph and create a target matrix.
     :param edge_path: Path to the ege list.
-    :param order: Order of approximations.
-    :return out_A: Target matrix.
+    :return A: Target matrix.
     """
     edges = pd.read_csv(edge_path).values.tolist()
     A = normalize_adjacency(edges)
