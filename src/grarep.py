@@ -33,7 +33,7 @@ class GraRep(object):
         return target_matrix
 
     def optimize(self):
-        print("Optimize")
+        print("\nOptimization started.\n")
         self.embeddings = []
         for step in tqdm(range(self.args.order)):
             target_matrix = self._create_target_matrix()
@@ -43,7 +43,7 @@ class GraRep(object):
             self.embeddings.append(embedding)
 
     def save_embedding(self):
-        print("")
+        print("\nSave embedding.\n")
         self.embeddings = np.concatenate(self.embeddings,axis=1)
         column_count = self.args.order*self.args.dimensions
         columns = ["ID"] + ["x_" + str(col) for col in range(column_count)]

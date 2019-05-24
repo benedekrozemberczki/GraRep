@@ -33,8 +33,8 @@ def parameter_parser():
 
     parser.add_argument('--seed',
                         type = int,
-                        default = 41,
-	                help = 'Target matrix approximation order. Default is 5.')
+                        default = 42,
+	                help = 'Target matrix approximation order. Default is 42.')
 
     parser.add_argument('--iterations',
                         type = int,

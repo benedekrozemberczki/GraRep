@@ -34,7 +34,6 @@ def read_graph(edge_path):
     :param order: Order of approximations.
     :return out_A: Target matrix.
     """
-    print("Target matrix creation started.")
     edges = pd.read_csv(edge_path).values.tolist()
     A = normalize_adjacency(edges)
     return A
