@@ -39,12 +39,12 @@ The embedding is saved in the `output/` directory. Each embedding has a header a
 Training a model is handled by the `src/main.py` script which provides the following command line arguments.
 
 ```
-  --edge-path     STR     Edge list csv.                        Default is `input/edges/cora.csv`.
-  --output-path   STR     Output embedding csv.                 Default is `output/cora_grarep.csv`.
-  --dimensions    INT     Number of dimensions per embedding.   Default is 16.
-  --order         INT     Number of adjacency matrix powers.    Default is 5.  
-  --iterations    INT     SVD iterations.                       Default is 20.
-  --seed          INT     Random seed.                          Default is 42.
+  --edge-path       STR     Edge list csv.                         Default is `input/edges/cora.csv`.
+  --output-path     STR     Output embedding csv.                  Default is `output/cora_grarep.csv`.
+  --dimensions      INT     Number of dimensions per embedding.    Default is 16.
+  --order           INT     Number of adjacency matrix powers.     Default is 5.  
+  --iterations      INT     SVD iterations.                        Default is 20.
+  --seed            INT     Random seed.                           Default is 42.
 ```
 ### Examples
 The following commands learn a model and save the embedding. Training a model on the default dataset:
