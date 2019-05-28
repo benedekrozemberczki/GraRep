@@ -1,4 +1,4 @@
-GraRep
+GraRep 	<img src="https://img.shields.io/badge/stars-5+-blue.svg"/> <img src="https://img.shields.io/badge/license-CC0-blue.svg"/>
 ============================================
 A SciPy implementation of "GraRep: Learning Graph Representations with Global Structural Information" (WWW 2015).
 <p align="center">
