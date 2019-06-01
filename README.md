@@ -7,13 +7,15 @@ A SciPy implementation of "GraRep: Learning Graph Representations with Global St
 <p align="justify">
 In this paper, we present GraRep, a novel model for learning vertex representations of weighted graphs. This model learns low dimensional vectors to represent vertices appearing in a graph and, unlike existing work, integrates global structural information of the graph into the learning process. We also formally analyze the connections between our work and several previous research efforts, including the DeepWalk model of Perozzi et al. as well as the skip-gram model with negative sampling of Mikolov et al. We conduct experiments on a language network, a social network as well as a citation network and show that our learned global representations can be effectively used as features in tasks such as clustering, classification and visualization. Empirical results demonstrate that our representation significantly outperforms other state-of-the-art methods in such tasks.</p>
 
-
 This repository provides a SciPy implementation of GraRep as described in the paper:
 
 > GraRep: Learning Graph Representations with Global Structural Information.
 > ShaoSheng Cao, Wei Lu, and Qiongkai Xu.
 > WWW, 2015.
 > [[Paper]](https://www.researchgate.net/profile/Qiongkai_Xu/publication/301417811_GraRep/links/5847ecdb08ae8e63e633b5f2/GraRep.pdf)
+
+
+A MatLab and Julia implementations are available [[here]](https://github.com/ShelsonCao/GraRep) and [[here]](https://github.com/xgfs/GraRep.jl).
 
 ### Requirements
 The codebase is implemented in Python 3.5.2. package versions used for development are just below.
