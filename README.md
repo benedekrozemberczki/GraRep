@@ -14,8 +14,7 @@ This repository provides a SciPy implementation of GraRep as described in the pa
 > WWW, 2015.
 > [[Paper]](https://www.researchgate.net/profile/Qiongkai_Xu/publication/301417811_GraRep/links/5847ecdb08ae8e63e633b5f2/GraRep.pdf)
 
-
-A MatLab and Julia implementations are available [[here]](https://github.com/ShelsonCao/GraRep) and [[here]](https://github.com/xgfs/GraRep.jl).
+MatLab and Julia implementations are available [[here]](https://github.com/ShelsonCao/GraRep) and [[respectively here]](https://github.com/xgfs/GraRep.jl).
 
 ### Requirements
 The codebase is implemented in Python 3.5.2. package versions used for development are just below.
