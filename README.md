@@ -1,4 +1,4 @@
-GraRep 	<img src="https://img.shields.io/badge/stars-10+-blue.svg"/> <img src="https://img.shields.io/badge/license-MIT-blue.svg"/>
+GraRep 	![GitHub stars](https://img.shields.io/github/stars/benedekrozemberczki/GraRep.svg?style=plastic) ![GitHub forks](https://img.shields.io/github/forks/benedekrozemberczki/GraRep.svg?color=blue&style=plastic) ![License](https://img.shields.io/github/license/benedekrozemberczki/GraRep.svg?color=blue&style=plastic)
 ============================================
 A SciPy implementation of "GraRep: Learning Graph Representations with Global Structural Information" (WWW 2015).
 <p align="center">
