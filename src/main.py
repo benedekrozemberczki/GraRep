@@ -1,6 +1,6 @@
 from grarep import GraRep
-from utils import read_graph, tab_printer
 from parser import parameter_parser
+from utils import read_graph, tab_printer
 
 def learn_model(args):
     """
