@@ -1,5 +1,7 @@
+"""Running GraRep"""
+
 from grarep import GraRep
-from parser import parameter_parser
+from param_parser import parameter_parser
 from utils import read_graph, tab_printer
 
 def learn_model(args):
