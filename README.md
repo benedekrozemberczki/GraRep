@@ -31,12 +31,12 @@ argparse          1.1.0
 scikit-learn      0.20.0
 ```
 ### Datasets
-
-The code takes the **edge list** of the graph in a csv file. Every row indicates an edge between two nodes separated by a comma. The first row is a header. Nodes should be indexed starting with 0. A sample graph for `Cora` is included in the  `input/edges/` directory. 
+<p align="justify">
+The code takes the **edge list** of the graph in a csv file. Every row indicates an edge between two nodes separated by a comma. The first row is a header. Nodes should be indexed starting with 0. A sample graph for `Cora` is included in the  `input/edges/` directory. </p>
 
 ### Outputs
-
-The embedding is saved in the `output/` directory. Each embedding has a header and a column with the node identifiers. Finally, the embedding is sorted by the identifier column.
+<p align="justify">
+The embedding is saved in the `output/` directory. Each embedding has a header and a column with the node identifiers. Finally, the embedding is sorted by the identifier column.</p>
 
 ### Options
 Training a model is handled by the `src/main.py` script which provides the following command line arguments.
