@@ -1,4 +1,4 @@
-GraRep 	![GitHub stars](https://img.shields.io/github/stars/benedekrozemberczki/GraRep.svg?style=plastic) ![GitHub forks](https://img.shields.io/github/forks/benedekrozemberczki/GraRep.svg?color=blue&style=plastic) ![License](https://img.shields.io/github/license/benedekrozemberczki/GraRep.svg?color=blue&style=plastic)
+GraRep 	[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/grarep-learning-graph-representations-with/node-classification-on-20news)](https://paperswithcode.com/sota/node-classification-on-20news?p=grarep-learning-graph-representations-with) ![GitHub stars](https://img.shields.io/github/stars/benedekrozemberczki/GraRep.svg?style=plastic) ![GitHub forks](https://img.shields.io/github/forks/benedekrozemberczki/GraRep.svg?color=blue&style=plastic) ![License](https://img.shields.io/github/license/benedekrozemberczki/GraRep.svg?color=blue&style=plastic)
 ============================================
 A SciPy implementation of "GraRep: Learning Graph Representations with Global Structural Information" (WWW 2015).
 <p align="center">
