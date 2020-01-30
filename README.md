@@ -53,18 +53,18 @@ Training a model is handled by the `src/main.py` script which provides the follo
 ```
 ### Examples
 The following commands learn a model and save the embedding. Training a model on the default dataset:
-```
-python src/main.py
+```sh
+$ python src/main.py
 ```
 <p align="center">
   <img width="500" src="grarep.gif">
 </p>
 
 Training a GraRep model with higher dimension size.
-```
-python src/main.py --dimensions 32
+```sh
+$ python src/main.py --dimensions 32
 ```
 Changing the batch size.
-```
-python src/main.py --order 3
+```sh
+$ python src/main.py --order 3
 ```
