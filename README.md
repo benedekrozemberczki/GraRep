@@ -1,6 +1,6 @@
 GraRep
 ============================================
- [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/grarep-learning-graph-representations-with/node-classification-on-20news)](https://paperswithcode.com/sota/node-classification-on-20news?p=grarep-learning-graph-representations-with) ![License](https://img.shields.io/github/license/benedekrozemberczki/GraRep.svg?color=blue&style=plastic) [![codebeat badge](https://codebeat.co/badges/0be7798b-fec2-45f1-9f58-cf16a2e12f53)](https://codebeat.co/projects/github-com-benedekrozemberczki-grarep-master) [![repo size](https://img.shields.io/github/repo-size/benedekrozemberczki/GraRep.svg)](https://github.com/benedekrozemberczki/GraRep/archive/master.zip)
+ [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/grarep-learning-graph-representations-with/node-classification-on-20news)](https://paperswithcode.com/sota/node-classification-on-20news?p=grarep-learning-graph-representations-with) [![codebeat badge](https://codebeat.co/badges/0be7798b-fec2-45f1-9f58-cf16a2e12f53)](https://codebeat.co/projects/github-com-benedekrozemberczki-grarep-master) [![repo size](https://img.shields.io/github/repo-size/benedekrozemberczki/GraRep.svg)](https://github.com/benedekrozemberczki/GraRep/archive/master.zip)
 
 A SciPy implementation of **GraRep: Learning Graph Representations with Global Structural Information (WWW 2015)**.
 <p align="center">
@@ -70,3 +70,6 @@ Changing the batch size.
 ```sh
 $ python src/main.py --order 3
 ```
+**License**
+
+- [GNU](https://github.com/benedekrozemberczki/GraRep/blob/master/LICENSE)
