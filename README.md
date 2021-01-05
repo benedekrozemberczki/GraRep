@@ -70,6 +70,9 @@ Changing the batch size.
 ```sh
 $ python src/main.py --order 3
 ```
+
+-------------------------------
+
 **License**
 
 - [GNU](https://github.com/benedekrozemberczki/GraRep/blob/master/LICENSE)
