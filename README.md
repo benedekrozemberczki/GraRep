@@ -1,5 +1,5 @@
 GraRep
-============================================
+========
  [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/grarep-learning-graph-representations-with/node-classification-on-20news)](https://paperswithcode.com/sota/node-classification-on-20news?p=grarep-learning-graph-representations-with) [![codebeat badge](https://codebeat.co/badges/0be7798b-fec2-45f1-9f58-cf16a2e12f53)](https://codebeat.co/projects/github-com-benedekrozemberczki-grarep-master) [![repo size](https://img.shields.io/github/repo-size/benedekrozemberczki/GraRep.svg)](https://github.com/benedekrozemberczki/GraRep/archive/master.zip)⠀[![benedekrozemberczki](https://img.shields.io/twitter/follow/benrozemberczki?style=social&logo=twitter)](https://twitter.com/intent/follow?screen_name=benrozemberczki)⠀
 
 A **SciPy** implementation of **GraRep: Learning Graph Representations with Global Structural Information (WWW 2015)**.
