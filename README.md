@@ -71,7 +71,7 @@ Changing the batch size.
 $ python src/main.py --order 3
 ```
 
--------------------------------
+------------------------
 
 **License**
 
