@@ -77,4 +77,4 @@ $ python src/main.py --order 3
 
 - [GNU](https://github.com/benedekrozemberczki/GraRep/blob/master/LICENSE)
 
-----------------------------
+------------------
